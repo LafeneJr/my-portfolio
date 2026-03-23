@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Ephesis&display=swap');
+
+:root {
+  font-family: "Ephesis", cursive;
+  font-optical-sizing: auto;
+  background: black;
+  color: white;
+  scroll-behavior: smooth;
+}
+
+.bg-image {
+  background-image: url();
+}
+
+#work, #about, #experience, #testimonials, #contact {
+  scroll-margin-top: 80px;
+}
