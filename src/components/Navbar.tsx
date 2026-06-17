@@ -6,7 +6,7 @@ import { RiCloseFill, RiMenu3Fill } from "react-icons/ri"
 
 export const Navbar = () => {
 
-    const [menuopen, setMenuOpen] = useState(false)
+    const [menuOpen, setMenuOpen] = useState(false)
 
     const handleClick = () => {
         setMenuOpen(false)
@@ -30,9 +30,9 @@ export const Navbar = () => {
             </div>
 
             <div className="md:hidden">
-                <button onClick={() => setMenuOpen(!menuopen)}
-                className="text-white focus:outline-none" aria-label={menuopen ? "Close menu" : "Open menu"}>
-                    {menuopen ? (
+                <button onClick={() => setMenuOpen(!menuOpen)}
+                className="text-white focus:outline-none" aria-label={menuOpen ? "Close menu" : "Open menu"}>
+                    {menuOpen ? (
                         <RiCloseFill className="w-6 h-6" />
                     ) : (
                         <RiMenu3Fill className="w-6 h-6" />
@@ -41,7 +41,7 @@ export const Navbar = () => {
             </div>
         </div>
 
-        {menuopen && (
+        {menuOpen && (
             <div className="md:hidden p-3 bg-stone-950/30 backdrop-blur-lg rounded-xl flex flex-col space-x-4 max-w-6xl mx-auto">
                 {Links.map((links, index) => (
                     <a href={links.href} key={index} className=" py-3 text-white hover:text-stone-400 transition duration-300" onClick={handleClick}>
