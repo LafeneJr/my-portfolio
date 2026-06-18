@@ -56,7 +56,7 @@ export const pastProjects = [
         "A professional website for an accounting firm offering tax consultancy and financial services.",
         image: project1,
         github: "https://github.com/LafeneJr/ld-aliyu-and-co",
-        demo: "https://ld-aliyu-and-co.vercel.app",
+        demo: "#",
     },
 
     {
@@ -64,7 +64,7 @@ export const pastProjects = [
         description: "A modern e-commerce platform for browsing and purchasing streetwear apparel.",
         image: project2,
         github: "https://github.com/LafeneJr/E-Commerce",
-        demo: "https://streetwearhub.vercel.app",
+        demo: "#",
     },
 
     {
@@ -72,7 +72,7 @@ export const pastProjects = [
         description: "A country information platform that lets users explore detailed facts, statistics, and geographic data from around the world.",
         image: project3,
         github: "https://github.com/LafeneJr/Country-info",
-        demo: "https://country-info.vercel.app",
+        demo: "#",
     },    
 ]
 
@@ -100,8 +100,8 @@ export const workExperience = [
       "Focused on performance, responsive UI, and delivering a seamless user experience while following modern full-stack development practices.",
     ],
 
-    github: "https://github.com/yourusername/travel-app",
-    demo: "https://travel-app.vercel.app",
+    github: "#",
+    demo: "#",
   },
 ];
 
@@ -195,7 +195,7 @@ export const TechStack = [
   },
 ];
 
-export const Contact_Content = { headline: "LET'S BUILD SOMETHING AMAZING", description: "Whether you have an idea, a project to improve, or you're looking for a full-stack developer to bring your vision to life, I'd love to hear from you. I'm always open to freelance opportunities, collaborations, and exciting projects where I can create fast, scalable, and user-friendly web applications.", email: "Lafene070@gmail.com", socialLinks: [ { platform: "Twitter", url: "https://twitter.com/yourprofile", ariaLabel: "Follow me on Twitter", icon: RiTwitterXFill, }, { platform: "LinkedIn", url: "https://linkedin.com/in/yourprofile", ariaLabel: "Connect with me on LinkedIn", icon: RiLinkedinFill, }, { platform: "GitHub", url: "https://github.com/LafeneJr", ariaLabel: "Check out my GitHub", icon: RiGithubFill, }, ],
+export const Contact_Content = { headline: "LET'S BUILD SOMETHING AMAZING", description: "Whether you have an idea, a project to improve, or you're looking for a full-stack developer to bring your vision to life, I'd love to hear from you. I'm always open to freelance opportunities, collaborations, and exciting projects where I can create fast, scalable, and user-friendly web applications.", email: "Lafene070@gmail.com", socialLinks: [ { platform: "Twitter", url: "#", ariaLabel: "Follow me on Twitter", icon: RiTwitterXFill, }, { platform: "LinkedIn", url: "#", ariaLabel: "Connect with me on LinkedIn", icon: RiLinkedinFill, }, { platform: "GitHub", url: "https://github.com/LafeneJr", ariaLabel: "Check out my GitHub", icon: RiGithubFill, }, ],
 
   footerText: `© ${new Date().getFullYear()} M~A~L. All rights reserved.`,
 };
