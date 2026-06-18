@@ -50,7 +50,7 @@ export const Experience = () => {
 
               <div className="md:w-3/4 mb-10">
                 <div className="max-w-3xl backdrop-blur-3xl p-4 bg-stone-600/10 rounded-lg">
-                  <h2 className="text-xl mb-2">{item.tittle}</h2>
+                  <h2 className="text-xl mb-2">{item.title}</h2>
                   <p className="mb-4 text-sm italic">{item.location}</p>
 
                   <ul className="list-disc list-inside space-y-2">
@@ -58,6 +58,26 @@ export const Experience = () => {
                       <li key={i}>{list}</li>
                     ))}
                   </ul>
+
+                <div className="mt-6 flex flex-wrap gap-3">
+                  <a
+                    href={item.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-4 py-2 rounded-full border border-white/20 bg-white/5 hover:bg-white/10 transition duration-300"
+                  >
+                    View on GitHub →
+                  </a>
+
+                  <a
+                    href={item.demo}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-4 py-2 rounded-full border border-white/20 bg-white/5 hover:bg-white/10 transition duration-300"
+                  >
+                    Live Demo →
+                  </a>
+                </div>
                 </div>
               </div>
             </div>

@@ -2,7 +2,7 @@ import { easeOut, motion, easeInOut } from "framer-motion"
 //import { clipPath } from "framer-motion"
 import { Hero_Content } from "../constants/Index"
 
-import personal7 from "../assets/personal7.jfif"
+import personal1 from "../assets/personal1.jpeg"
 
 const textVariants = {
     hidden: { opacity: 0, y: 50},
@@ -79,7 +79,7 @@ export const Hero = () => {
         initial="hidden"
         animate="visible"
         variants={imageVariants}>
-        <img src={personal7} alt="MAL" width={400} height={400}
+        <img src={personal1} alt="MAL" width={400} height={400}
         className="rounded-3xl" />
         </motion.div>
     </div>

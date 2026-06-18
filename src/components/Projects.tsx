@@ -26,7 +26,7 @@ export const Projects = () => {
   return (
     <section className="px-4 py-10" id="work">
       <h1 className="text-4xl md:text-5xl font-medium tracking-tight mb-5">
-        Work
+        Personal Projects
       </h1>
       <div className="h-1 w-30 mb-10 bg-white"></div>
 
@@ -50,15 +50,26 @@ export const Projects = () => {
             {/* Text & Button below */}
             <div className="p-6 flex flex-col justify-between text-white">
                 <p className="mb-4 text-xl">{project.description}</p>
+                <div className="flex justify-between">                
 
                 <a
-                href={project.link}
+                href={project.github}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-white text-stone-900 rounded-full py-2 px-2 w-32 text-center"
                 >
                 View on Github
                 </a>
+
+                <a
+                href={project.demo}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-white text-stone-900 rounded-full py-2 px-2 w-32 text-center"
+                >
+                Live Demo
+                </a>
+                </div>
             </div>
             </motion.div>
 

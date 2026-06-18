@@ -16,8 +16,10 @@ export const Navbar = () => {
     <nav className="fixed top-0 left-0 w-full z-50">
         <div className="flex justify-between items-center max-w-6xl mx-auto md:my-2 bg-stone-950/30 p-4 md:rounded-xl backdrop-blur-lg">
             <div className="text-white font-semibold text-xl uppercase tracking-wider">
-                <a href="/">
-                    M~A~L
+                <a href="/" className="group flex items-center text-white font-bold text-xl tracking-wider" >
+                <span className="text-stone-500 transition-colors group-hover:text-stone-300"> {"{"} </span>
+                <span className="mx-1">M~A~L</span>
+                <span className="text-stone-500 transition-colors group-hover:text-stone-300"> {"}"} </span>
                 </a>
             </div>
 
