@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Ephesis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Inter:wght@300;400;500;600;700&display=swap');
 
 :root {
   font-family: "Ephesis", cursive;
@@ -20,4 +21,11 @@
 ::-webkit-scrollbar {
   width: 0;
   height: 0;
+}
+
+/* Mobile devices */
+@media (max-width: 768px) {
+  :root {
+    font-family: "Inter", sans-serif;
+  }
 }
