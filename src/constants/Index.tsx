@@ -56,7 +56,7 @@ export const pastProjects = [
         "A professional website for an accounting firm offering tax consultancy and financial services.",
         image: project1,
         github: "https://github.com/LafeneJr/ld-aliyu-and-co",
-        demo: "#",
+        demo: "https://ld-aliyu-and-co.vercel.app/",
     },
 
     {
