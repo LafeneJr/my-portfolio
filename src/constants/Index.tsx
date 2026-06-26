@@ -64,7 +64,7 @@ export const pastProjects = [
         description: "A modern e-commerce platform for browsing and purchasing streetwear apparel.",
         image: project2,
         github: "https://github.com/LafeneJr/E-Commerce",
-        demo: "#",
+        demo: "https://e-commerce-henna-eight-79.vercel.app",
     },
 
     {
