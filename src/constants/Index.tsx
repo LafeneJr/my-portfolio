@@ -56,7 +56,7 @@ export const pastProjects = [
         "A professional website for an accounting firm offering tax consultancy and financial services.",
         image: project1,
         github: "https://github.com/LafeneJr/ld-aliyu-and-co",
-        demo: "https://ld-aliyu-and-co.vercel.app/",
+        demo: "https://ld-aliyu-and-co.vercel.app",
     },
 
     {
@@ -72,7 +72,7 @@ export const pastProjects = [
         description: "A country information platform that lets users explore detailed facts, statistics, and geographic data from around the world.",
         image: project3,
         github: "https://github.com/LafeneJr/Country-info",
-        demo: "#",
+        demo: "https://rest-explore.vercel.app",
     },    
 ]
 
